@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game Development 3 AI", "Game Development 3 AI.csproj", "{9F1863B4-5185-86DB-F6EB-878C5C635560}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game Development 3 AI.Plugins", "Game Development 3 AI.Plugins.csproj", "{426C193A-A870-781B-1888-8697816C5321}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game Development 3 AI.Editor.Plugins", "Game Development 3 AI.Editor.Plugins.csproj", "{B0BF2906-D502-CBDA-28DD-B3646D4C9DBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F1863B4-5185-86DB-F6EB-878C5C635560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F1863B4-5185-86DB-F6EB-878C5C635560}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F1863B4-5185-86DB-F6EB-878C5C635560}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F1863B4-5185-86DB-F6EB-878C5C635560}.Release|Any CPU.Build.0 = Release|Any CPU
+		{426C193A-A870-781B-1888-8697816C5321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{426C193A-A870-781B-1888-8697816C5321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{426C193A-A870-781B-1888-8697816C5321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{426C193A-A870-781B-1888-8697816C5321}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0BF2906-D502-CBDA-28DD-B3646D4C9DBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0BF2906-D502-CBDA-28DD-B3646D4C9DBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0BF2906-D502-CBDA-28DD-B3646D4C9DBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0BF2906-D502-CBDA-28DD-B3646D4C9DBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
