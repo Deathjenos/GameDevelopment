@@ -58,9 +58,9 @@ GameObject:
   - component: {fileID: 95664765891913736}
   - component: {fileID: 136053694680045010}
   - component: {fileID: 54140585946437460}
-  - component: {fileID: 114541822590296386}
   - component: {fileID: 135538453528402548}
   - component: {fileID: 82141143540737276}
+  - component: {fileID: 114216067728396346}
   m_Layer: 0
   m_Name: ChildAI
   m_TagString: ChildAI
@@ -822,6 +822,30 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+--- !u!114 &114216067728396346
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1227605055704860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c46f8ad01e6e8814a9f5e29f6ddd9a1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxHealth: 200
+  CurrentHealth: 200
+  DangerHP: 50
+  DestinationRadius: 2
+  MovementSpeed: 10
+  CD: 10
+  SS: {fileID: 114079961696614286}
+  CloseAttack: {fileID: 1300862948030202}
+  RangedAttack: {fileID: 1759955037165128}
+  CrySound: {fileID: 8300000, guid: bc6fa11f40c9b2c459ab007c7abc5c2f, type: 3}
+  HealMeSound: {fileID: 8300000, guid: 436aa91728ba8ba4c8798edf0e98eb93, type: 3}
+  HeySound: {fileID: 8300000, guid: 4498ed4b8b19605408d7576d5b92430e, type: 3}
+  Hit: {fileID: 8300000, guid: 950fa7456802c564bb14b104198cd8bd, type: 3}
 --- !u!114 &114311559638139648
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -860,33 +884,6 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &114541822590296386
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1227605055704860}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0579e144c89f9f64c8c08c4fb3d6e894, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MaxHealth: 200
-  CurrentHealth: 0
-  SS: {fileID: 114079961696614286}
-  Hit: {fileID: 8300000, guid: 950fa7456802c564bb14b104198cd8bd, type: 3}
-  MovementSpeed: 10
-  DestinationRadius: 2
-  CombineCD: 10
-  DangerHP: 50
-  RangedAttackTime: 3
-  CrySound: {fileID: 8300000, guid: bc6fa11f40c9b2c459ab007c7abc5c2f, type: 3}
-  HealMeSound: {fileID: 8300000, guid: 436aa91728ba8ba4c8798edf0e98eb93, type: 3}
-  HeySound: {fileID: 8300000, guid: 4498ed4b8b19605408d7576d5b92430e, type: 3}
-  Cooldown: 0
-  HasCooldown: 0
-  CloseAttack: {fileID: 1300862948030202}
-  RangedAttack: {fileID: 1759955037165128}
 --- !u!114 &114585860374868378
 MonoBehaviour:
   m_ObjectHideFlags: 1

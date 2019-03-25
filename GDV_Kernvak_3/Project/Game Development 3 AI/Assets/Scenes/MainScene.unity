@@ -340,12 +340,12 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 114298181278389712, guid: 0e28bdd9e69e81e4baa399843fa86148,
+    - target: {fileID: 114818648468615400, guid: 0e28bdd9e69e81e4baa399843fa86148,
         type: 2}
       propertyPath: SS
       value: 
       objectReference: {fileID: 855937580}
-    - target: {fileID: 114298181278389712, guid: 0e28bdd9e69e81e4baa399843fa86148,
+    - target: {fileID: 114818648468615400, guid: 0e28bdd9e69e81e4baa399843fa86148,
         type: 2}
       propertyPath: GSM
       value: 
@@ -400,6 +400,10 @@ Prefab:
     - target: {fileID: 224230635497031130, guid: 7a992ef3cc9d4014598caf0974925c32,
         type: 2}
       propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227605055704860, guid: 7a992ef3cc9d4014598caf0974925c32, type: 2}
+      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []

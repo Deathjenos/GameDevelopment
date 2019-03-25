@@ -20,11 +20,11 @@ GameObject:
   m_Component:
   - component: {fileID: 4538376418072208}
   - component: {fileID: 95352773036238882}
-  - component: {fileID: 114298181278389712}
   - component: {fileID: 136702548111306520}
   - component: {fileID: 54163464981614118}
   - component: {fileID: 135260726616626540}
   - component: {fileID: 82574499498255846}
+  - component: {fileID: 114818648468615400}
   m_Layer: 0
   m_Name: MotherAI
   m_TagString: MotherAI
@@ -301,7 +301,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114298181278389712
+--- !u!114 &114818648468615400
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -309,23 +309,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 1390415239333552}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64401bacb1345014c977fc8eba120e76, type: 3}
+  m_Script: {fileID: 11500000, guid: a6f14e7519137144c9ede93fe442c6c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   MaxHealth: 400
-  CurrentHealth: 0
-  SS: {fileID: 0}
-  Hit: {fileID: 8300000, guid: 47728a69451b99d4eb54dd0bd31bed43, type: 3}
-  MovementSpeed: 15
+  CurrentHealth: 400
   DestinationRadius: 5
-  TransitionEnergyPerSecond: 15
-  HealPerSecond: 20
-  BirthTime: 1
-  SelfHealPerSecond: 1
-  ScreamSound: {fileID: 8300000, guid: f186cdaa7264edd48b6e1b5b73a755a0, type: 3}
+  MovementSpeed: 15
+  HealPerSecond: 30
   MaxEnergyPocket: 100
   CurrentEnergyPocket: 0
+  TransitionEnergyPerSecond: 20
+  SelfHealPerSecond: 1
+  SS: {fileID: 0}
   GSM: {fileID: 0}
+  ScreamSound: {fileID: 8300000, guid: f186cdaa7264edd48b6e1b5b73a755a0, type: 3}
+  Hit: {fileID: 8300000, guid: 47728a69451b99d4eb54dd0bd31bed43, type: 3}
 --- !u!135 &135260726616626540
 SphereCollider:
   m_ObjectHideFlags: 1

@@ -35,14 +35,14 @@ public class SpearAttack : MonoBehaviour {
         //Deal Damage to ChildAI if hitting ChildAI
         if(Target.gameObject.tag == "ChildAI")
         {
-            ChildAI CAI = Target.gameObject.GetComponent<ChildAI>();
+            BTChildAI CAI = Target.gameObject.GetComponent<BTChildAI>();
             float Damage = AttackDamage * -1;
             CAI.TranslateHP(Damage);
         }
         //Deal Damage to MotherAI if hitting MotherAI and no ChildAI's are alive
         if (Target.gameObject.tag == "MotherAI" && GSM.AmountOfChildAI == 0)
         {
-            MotherAI MAI = Target.gameObject.GetComponent<MotherAI>();
+            BTMotherAI MAI = Target.gameObject.GetComponent<BTMotherAI>();
             float Damage = AttackDamage * -1;
             MAI.TranslateHP(Damage);
         }

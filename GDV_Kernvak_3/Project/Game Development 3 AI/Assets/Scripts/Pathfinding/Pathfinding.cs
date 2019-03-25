@@ -120,4 +120,20 @@ public class Pathfinding : MonoBehaviour {
         return ix + iy;
     }
 
+    //Choose Random Destination
+    public Vector3 RandomDestination()
+    {
+        Node RandomNode = grid.GetRandomNode();
+
+        if (RandomNode != null)
+        {
+            return RandomNode.Position;
+        }
+        else
+        {
+            return new Vector3(0, 0, 0);
+        }
+
+    }
+
 }//CLASS

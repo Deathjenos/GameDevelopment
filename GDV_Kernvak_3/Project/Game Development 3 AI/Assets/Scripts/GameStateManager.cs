@@ -23,6 +23,9 @@ public class GameStateManager : MonoBehaviour {
         MotherAI = GameObject.FindGameObjectWithTag("MotherAI");
         //Find Player
         PS = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerScript>();
+        //Starting state
+        Win.SetActive(false);
+        Lose.SetActive(false);
     }
 	
 	//Update every frame
@@ -41,12 +44,6 @@ public class GameStateManager : MonoBehaviour {
         {
             Win.SetActive(true);
             StartCoroutine(WaitToMenu());
-        }
-        ///Else In-Game
-        else
-        {
-            Win.SetActive(false);
-            Lose.SetActive(false);
         }
 	}
 
